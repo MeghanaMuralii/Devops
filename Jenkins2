@@ -12,7 +12,8 @@ pipeline {
                 git branch: 'main',
                     url: 'https://github.com/KARTIKNAIK18/Demo-CICD.git'
 
-                sh 'dir'
+                sh 'ls -la'
+
             }
         }
 
